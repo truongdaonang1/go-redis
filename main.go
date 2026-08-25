@@ -1,7 +1,3 @@
-package main
+package redis
 
-import "fmt"
-
-func main() {
-	fmt.Println("Hello, Bounty Hunter!")
-}
+// Package redis implements a robust Redis client including PubSub and Sentinel failover support.
